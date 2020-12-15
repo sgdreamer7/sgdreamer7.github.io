@@ -1,22 +1,19 @@
 body {
   font-family: 'Cabin', sans-serif;
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
-  color: #fff;
+  color: #0000c0;
   background: url("../images/bg.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
 }
 
 h1 {
-  color: #fff;
+  color: #0000c0;
   font-weight: 700;
   font-size: 40px;
 }
 
 h3 {
-  color:#fff;
+  color: #0000c0;
   font-style: italic;
   font-size: 25px;
 }
@@ -56,7 +53,7 @@ Header Section
 countdown timer section
 */
 #counter {
-  color: #ffffff;
+  color: #0000c0;
 }
 
 #counter_wrapper {
@@ -94,20 +91,22 @@ countdown timer section
   font-style: italic;
   font-weight: 700;
   font-size: 14px;
-  color: #ffffff;
+  color: #0000c0;
   background-color: #ff6000;
-  transition-duration: 0.4s;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
 }
 
 .subscribe-form-wrapper button:hover,
 .subscribe-form-wrapper button:focus,
 .subscribe-form-wrapper button:active:focus {
   outline: none;
-  color: #ffffff;
+  color: #0000c0;
   background-color: #FF7E00;
 }
 
 .subscribe-form-wrapper input {
+  padding: 20px 80px 20px 20px;
   border: 0;
   border-radius: 20px;
 }
@@ -115,7 +114,6 @@ countdown timer section
 .subscribe-form-wrapper input,
 .subscribe-form-wrapper button {
   -webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.3);
 }
 
@@ -123,23 +121,22 @@ countdown timer section
   .form-subs-email {
     margin-left: 10px;
     margin-right: 10px;
-    width:100% !important;
   }
 }
 
 /*
- Social media section
- */
+Social media section
+*/
 .social-media-wrapper {
   margin-top: 30px;
-  margin-bottom: 80px;
+  margin-bottom: 10px;
   font-size: 25px;
 }
 
 .social-media-wrapper a {
-  margin-right: 20px;
-  font-size: 25px;
-  color: #ffffff;
+  margin-right: 40px;
+  font-size: 30px;
+  color: #0000c0;
 }
 
 .social-media-wrapper a:last-child {
@@ -151,43 +148,10 @@ Footer and copyright section
 */
 .copyright {
   margin: 30px 0px 20px 0px;
-  color: #ffffff;
+  color: #0000c0;
 }
 
-
-
-/*--- FORMS ---*/
-/*
-This is the bit you need.
-*/
-.subscribe-form-wrapper label{
-  position:absolute;
-  left:-9999px;
+.link {
+  margin-right: 0px;
 }
-.subscribe-form-wrapper input,
-.subscribe-form-wrapper textarea{
-  font:inherit;
-  resize:none;
-height: 38px;
-width: 234px !important;
-}
-
-
-
-
-
-/*--- THE MAGIC ---*/
-/*
-This is the best bit!
-*/
-[placeholder]{
-  cursor:pointer;
-}
-[placeholder]:active,
-[placeholder]:focus{
-  cursor:text;
-}
-
-.colored {
-  color: darkblue;
-}
+/*# sourceMappingURL=custom.css.map */
