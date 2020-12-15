@@ -152,6 +152,16 @@ Footer and copyright section
 }
 
 .link {
+  position: relative;
+  display: inline-block;
   margin-right: 0px;
+  height: 30px;
+}
+
+.producthunt-logo {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-bottom: 7px;
 }
 /*# sourceMappingURL=custom.css.map */
