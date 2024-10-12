@@ -2,6 +2,6 @@ title: Volodymyr Shcherbyna's Blog
 description: A blog about software engineering and personal insights.
 domain: vladimirsherbina.com
 url: https://vladimirsherbina.com
-baseurl: /sgdreamer7.github.io
+baseurl: ""
 plugins:
   - jekyll-seo-tag
