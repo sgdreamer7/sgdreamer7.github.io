@@ -3,3 +3,5 @@ description: A blog about software engineering and personal insights.
 domain: vladimirsherbina.com
 url: https://vladimirsherbina.com
 baseurl: /sgdreamer7.github.io
+plugins:
+  - jekyll-seo-tag
