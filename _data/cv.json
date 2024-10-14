@@ -1,0 +1,215 @@
+{
+  "basics": {
+    "name": "Volodymyr Shcherbyna",
+    "label": "_Engineer. Leader. Father._",
+    "picture": "",
+    "email": "vns.scherbina@gmail.com",
+    "phone": "+380677360599",
+    "website": "https://vladimirsherbina.com/",
+    "summary": "I'm Software Engineer with over 28 years of experience in software and hardware design, development, and maintenance of robust real-time systems.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Zaporizhzhia",
+      "countryCode": "Ukraine",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "sgdreamer7",
+        "url": "https://github.com/sgdreamer7/"
+      },
+      {
+        "network": "Facebook",
+        "username": "volodymyr.shcherbyna.777",
+        "url": "https://www.facebook.com/volodymyr.shcherbyna.777"
+      },
+      {
+        "network": "Instagram",
+        "username": "volodymyr.shcherbyna.777",
+        "url": "https://www.instagram.com/volodymyr.shcherbyna.777/"
+      },
+      {
+        "network": "Twitter",
+        "username": "sgdreamer7",
+        "url": "https://x.com/sgdreamer7"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "TUI Group / Pwrteams",
+      "position": "Technology Team Lead",
+      "website": "https://tui.co.uk",
+      "startDate": "May 2023",
+      "endDate": "October 2024",
+      "summary": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.",
+      "highlights": []
+    },
+    {
+      "company": "Lead Software Engineer",
+      "position": "Epic Games / EPAM Systems",
+      "website": "https://epam.com",
+      "startDate": "March 2021",
+      "endDate": "April 2023",
+      "summary": "Led multiple development teams; designed and implemented architecture solutions for web applications.",
+      "highlights": []
+    },
+    {
+      "company": "Lead Software Engineer, Full-Stack Software Engineer",
+      "position": "Powercode LLC",
+      "website": "https://powercode.us",
+      "startDate": "March 2019",
+      "endDate": "March 2019",
+      "summary": "Led development teams and facilitated processes, building product development roadmaps and reviewing code.",
+      "highlights": []
+    },
+    {
+      "company": "Lead Software Engineer, Full-Stack Software Engineer",
+      "position": "Incode Group",
+      "website": "https://incode-group.com/",
+      "startDate": "February 2018",
+      "endDate": "February 2019",
+      "summary": "Led development teams, designed architecture solutions, and mentored junior engineers.",
+      "highlights": []
+    },
+    {
+      "company": "Co-Founder, Full-Stack Software Engineer",
+      "position": "Startup (NDA)",
+      "website": "",
+      "startDate": "January 2016",
+      "endDate": "March 2018",
+      "summary": "Performed product specification design in Banking & Finance and developed both backend and frontend software.",
+      "highlights": []
+    },
+    {
+      "company": "CTO, Lead Software Engineer, Senior Full-Stack Software Engineer",
+      "position": "CMAS LLC",
+      "website": "",
+      "startDate": "April 2000",
+      "endDate": "January 2016",
+      "summary": "Designed architecture and developed software for real-time process control automation systems.",
+      "highlights": []
+    },
+    {
+      "company": "Full-Stack Software Engineer",
+      "position": "ECOSYS LLC",
+      "website": "",
+      "startDate": "November 1996",
+      "endDate": "November 1996",
+      "summary": "Developed software and debugged on-site, while teaching and transferring knowledge to customers.",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "Zaporizhzhia State Industrial Academy",
+      "area": "Electrical Engineering",
+      "studyType": "Master",
+      "startDate": "September 1993",
+      "endDate": "July 1998",
+      "gpa": "",
+      "courses": ["Microprocessor's Control Systems"]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "level": "Master",
+      "keywords": [
+        "JavaScript",
+        "TypeScript",
+        "Python,",
+        "Erlang",
+        "Java",
+        "Groovy",
+        "Kotlin"
+      ]
+    },
+    {
+      "name": "Cloud and Deployment",
+      "level": "Master",
+      "keywords": ["AWS", "GCP", "Kubernetes", "Docker"]
+    },
+    {
+      "name": "Databases",
+      "level": "Master",
+      "keywords": ["Postgres", "MySQL", "MongoDB", "Redis", "CouchDB", "Riak"]
+    },
+    {
+      "name": "Javascript Frameworks",
+      "level": "Master",
+      "keywords": [
+        "Node.js",
+        "React.js",
+        "Express.js",
+        "Nest.js",
+        "Next.js",
+        "Electron.js"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "level": "Master",
+      "keywords": [
+        "Terraform",
+        "Ansible",
+        "Teamcity",
+        "Codefresh",
+        "CircleCI",
+        "Jenkins"
+      ]
+    },
+    {
+      "name": "VCS",
+      "level": "Master",
+      "keywords": ["GitHub", "GitLab", "Bitbucket"]
+    },
+    {
+      "name": "API",
+      "level": "Master",
+      "keywords": ["Rest", "GraphQL", "gRPC", "Soap", "WebSockets"]
+    },
+    {
+      "name": "Design & Development Principles",
+      "level": "Master",
+      "keywords": [
+        "Hexagonal/Layered/Onion Architecture",
+        "SOLID",
+        "GRASP",
+        "DRY",
+        "KISS",
+        "DI",
+        "CQRS",
+        "DDD",
+        "MicroServices",
+        "MicroFrontEnds"
+      ]
+    },
+    {
+      "name": "Testing Approaches",
+      "level": "Master",
+      "keywords": [
+        "Unit testing",
+        "Integration testing",
+        "E2E testing",
+        "Contract testing"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Upper Intermediate (B2+)"
+    },
+    {
+      "language": "Ukrainian",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Russian",
+      "fluency": "Native speaker"
+    }
+  ]
+}

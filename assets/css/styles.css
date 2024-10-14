@@ -1,0 +1,9 @@
+.entry-image {
+  width: 25% !important;
+
+}
+
+.intro-image>img {
+  width: 50% !important;
+  padding-left: 3rem !important;
+}
