@@ -1,8 +1,74 @@
-title: Volodymyr Shcherbyna's Blog
-description: A blog about software engineering and personal insights.
 domain: vladimirsherbina.com
-url: https://vladimirsherbina.com
-baseurl: ""
+remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
+
+lang: en-US
+title: Volodymyr Shcherbyna - Personal Site & Blog
+email: vns.scherbina@gmail.com
+description: "A blog about software engineering and personal insights"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://vladimirsherbina.com" # the base hostname & protocol for your site, e.g. http://example.com
+author:
+  name: "Volodymyr Shcherbyna"
+  twitter: sgdreamer7
+  picture: /assets/images/logo.jpeg
+twitter_username: sgdreamer7
+github_username: sgdreamer7
+logo: /assets/images/logo.jpeg
+search: true
+search_full_content: true
+search_provider: lunr
+
+# Liquid
+liquid:
+  error_mode: strict
+
+# Build settings
+markdown: kramdown
+ighlighter: rouge
+
+# More › http://kramdown.gettalong.org/quickref.html
+# Options › http://kramdown.gettalong.org/options.html
+kramdown:
+  input: GFM
+  # https://github.com/jekyll/jekyll/pull/4090
+  syntax_highlighter: rouge
+
+  # Rouge Highlighter in Kramdown › http://kramdown.gettalong.org/syntax_highlighter/rouge.html
+  # span, block element options fall back to global
+  syntax_highlighter_opts:
+    # Rouge Options › https://github.com/jneen/rouge#full-options
+    css_class: "highlight"
+    #line_numbers: true # bad idea, spans don't need linenos and would inherit this option
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+enable_copy_code_button: true
+
 plugins:
+  - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-commonmark
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-include-cache
+feed:
+  path: atom.xml
+
+# Pagination - https://jekyllrb.com/docs/pagination/
+paginate: 10
+paginate_path: /page:num/
+
+custom_js:
+  - code-copy-to-clipboard
+
+# Front Matter Defaults
+defaults:
+  # _posts
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: "post-custom"
+      read_time: true

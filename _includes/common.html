@@ -1,0 +1,16 @@
+<link href="/assets/css/styles.css" rel="stylesheet" />
+{% if site.enable_copy_code_button %}
+<script>
+  window.enable_copy_code_button = true;
+</script>
+{% endif %}
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<script src="https://use.fontawesome.com/3db7fc1628.js" crossorigin="anonymous"></script>
+
+{% if site.custom_js %}
+{% for js_file in site.custom_js %}
+<script type="text/javascript" src="{{ site.baseurl }}/assets/javascript/{{ js_file }}.js"></script>
+{% endfor %}
+{% endif %}

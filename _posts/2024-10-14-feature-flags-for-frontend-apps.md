@@ -1,3 +1,25 @@
+---
+title: "Feature Flags in Frontend Applications"
+date: 2024-10-14
+last_modified_at: 2024-10-14T18:10:00+03:00
+excerpt: "## Feature Flag Usage in Frontend Applications: A Comprehensive Overview
+
+### Introduction
+
+Feature flags, also known as feature toggles, are an essential technique for modern software development, particularly in frontend applications. They enable teams to release new features gradually, test them with select users, and turn them on or off dynamically without needing to redeploy the application. ..."
+excerpt_separator: "<!--more-->"
+categories:
+  - Posts
+tags:
+  - frontend
+  - feature-flags
+  - lit
+  - preact
+  - openfeature
+image: 
+  path: /assets/images/2024-10-14/feature-toggles.png
+  thumbnail: /assets/images/2024-10-14/feature-toggles-thumbnail.png
+---
 ## Feature Flag Usage in Frontend Applications: A Comprehensive Overview
 
 ### Introduction
@@ -295,7 +317,7 @@ export class OpenFeatureFlagdFeatureFlagProvider extends BaseFeatureFlagProvider
   }
 }
 ```
-The full source code could be found here on Github: [https://github.com/sgdreamer7/lit-preact-feature-flag](https://github.com/sgdreamer7/lit-preact-feature-flag
+The full source code could be found here on my Github: [https://github.com/sgdreamer7/lit-preact-feature-flag](https://github.com/sgdreamer7/lit-preact-feature-flag){:target="_blank"}
 
 ### Conclusion
 
