@@ -5,3 +5,4 @@ url: https://vladimirsherbina.com
 baseurl: ""
 plugins:
   - jekyll-seo-tag
+  - jekyll-commonmark
