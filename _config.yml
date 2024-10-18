@@ -1,4 +1,4 @@
-domain: vladimirsherbina.com
+domain: volodymyrshcherbyna.com
 remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
 
 lang: en-US
@@ -6,7 +6,7 @@ title: Volodymyr Shcherbyna - Personal Site & Blog
 email: vns.scherbina@gmail.com
 description: "A blog about software engineering and personal insights"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://vladimirsherbina.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://volodymyrshcherbyna.com" # the base hostname & protocol for your site, e.g. http://example.com
 author:
   name: "Volodymyr Shcherbyna"
   twitter: sgdreamer7
